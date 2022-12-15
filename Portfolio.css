@@ -1,0 +1,46 @@
+body{
+    background-image: url(img/myWork.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+.navbar i{
+    color:rgb(255, 238, 0);
+}
+.navbar{
+    text-align: center;
+    position: fixed;
+    bottom:0%; left:0%; right:0%;
+    display: fixed;
+    z-index:1000 ;
+    align-items:flex-end ;
+    margin-bottom: 35px;
+
+}
+a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem;
+    font-style:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+  transition: .2s linear;
+    color: white;
+    background: gray;
+    margin-left: 7vh;
+}
+a:hover{
+    background: rgb(24, 128, 255);
+    box-shadow: 1px 1px 1px 3px rgb(255, 238, 0);
+    padding: 2rem;
+}
+section{
+    padding: 5rem 9%;
+}
+
+
+
+
+

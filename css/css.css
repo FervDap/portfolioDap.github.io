@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    background: #3C3C3C;
+}
+nav {
+    margin: 0px;
+    background: #2D2D2D;
+    width: 18%;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-left: none;
+    float: left;
+    border-width: thin;
+    margin-bottom: 0px;
+    border-color: #000000;
+    height: 750px;
+    position: fixed;
+}
+nav p {
+    color: white;
+    text-align: center;
+    border-style: groove;
+    margin: 0;
+    padding: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    font-family: cursive;
+    border-width: thin;
+}
+nav ul li{
+    color: white;
+    display: block;
+    padding: 20px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    margin-left: 0px;
+    border-style: inherit;
+    font-family: cursive;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #1E1E1E;
+}
+nav ul {
+    margin: 0px;
+}
+div.first {
+    width: 81.3%;
+    height: 100%;
+    float: right;
+    margin: 0px;
+}
+div.cover {
+    background-image: url(../images/animefycover.jpeg);
+    background-size: cover;
+    height: 620px;
+    width: 1050px;
+}
+section.first p {
+    color: white;
+}
+div.second {
+    background: #2D2D2D;
+    height: auto;
+    width: 1050px;
+    display: block;
+    margin-left: 0px;
+    border-style: groove;
+    border-width: thin;
+    border-color: #000000;
+    margin-top: 10px;
+}
+
+div.third {
+    background: #2D2D2D;
+    height: 3300px;
+    width: 1050px;
+    display: block;
+    margin-left: 0px;
+    border-style: groove;
+    border-width: thin;
+    border-color: #000000;
+    margin-top: 10px;
+}
+div.third p {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+div.second p {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+section {
+    background: #1E1E1E;
+    width: 70%;
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+}
+section p {
+    margin: 20px 0px 20px 20px ;
+    display: block;
+}
+audio {
+    margin-left: 40%;
+    padding: 30px;
+    display: block;
+    float: right;
+}
+  
+

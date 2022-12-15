@@ -1,0 +1,107 @@
+
+body{
+   background-image: url(img/Business.jpg);
+   background-position: right 0px  ;
+   background-size: cover;
+   
+    }
+
+.navbar i{
+    color: rgb(0, 94, 255);
+}
+.navbar{
+    text-align: left;
+    position: fixed;
+    bottom:0%; left:0%; right:0%;
+    display: fixed;
+    z-index:1000 ;
+    align-items:flex-end ;
+    margin-bottom: 35px;
+
+}
+a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem;
+    font-style:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+  transition: .2s linear;
+    color: white;
+    background: gray;
+    margin-left: 7vh;
+}
+a:hover{
+    background: rgb(255, 136, 0);
+    box-shadow: 1px 1px 1px 3px rgb(0, 187, 255);
+    padding: 2rem;
+}
+section{
+    padding: 5rem 9%;
+}
+
+
+.me,img{
+    float: left;
+    margin-left: 14vh;
+    height:67rem;
+    width: 45rem;
+}
+
+
+.content, h3{
+    float: right;
+    margin-top:200px ;
+   margin-right: 20vh;
+    color: rgb(255, 255, 255);
+    font-size:95px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.title, h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0%;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(54, 54, 54);
+}
+
+.h2{
+    text-align: left;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    font-size: 45px;
+}
+.pic, img{
+    float: left;
+    box-shadow: 1px 1px 1px 1px wheat;
+    margin-top: 0%;
+    margin-left: 10px;
+    border-radius: 50px;
+    height: 450px;
+    width: 320px;
+}
+.h3{
+    text-align: right;
+    margin-top: 3px;
+    margin-right: 115vh;
+    margin-bottom: 0%;
+    color: chocolate;
+    background-color: rgb(18, 18, 18);
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.h4{ 
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 100px;
+    margin-left: 65vh;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
